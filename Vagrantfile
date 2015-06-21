@@ -5,7 +5,15 @@
 # configures the configuration version (we support older styles for
 # backwards compatibility). Please don't change it unless you know what
 # you're doing.
+<<<<<<< HEAD
 Vagrant.configure(2) do |config|
+=======
+
+Vagrant.configure(2) do |config|
+  config.vm.box = "hashicorp/precise32"
+end
+
+>>>>>>> 96082cd4b4baa8e2ab72c8138a7cb913b6d886ab
   # The most common configuration options are documented and commented below.
   # For a complete reference, please see the online documentation at
   # https://docs.vagrantup.com.
